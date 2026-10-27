@@ -433,3 +433,8 @@ st.download_button(
 )
 
 st.caption('Cierre documental según el Word. Foto_antes y Detalle_antes pertenecen a la misma evidencia; no equivalen a una foto después. INSPECCIONES sirve para visualizar imágenes.')
+# Mapa de ubicación y ruteo de postes
+from mapa_ruteo import show_map
+
+with st.expander("🗺️ Mapa y ruteo de postes", expanded=False):
+    show_map(filtered, ROOT)
