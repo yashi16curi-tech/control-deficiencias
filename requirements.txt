@@ -4,3 +4,7 @@ openpyxl>=3.1,<4
 plotly>=5.18,<7
 python-docx>=1.1,<2
 pillow>=10,<13
+folium
+streamlit-folium
+pyproj
+requests
